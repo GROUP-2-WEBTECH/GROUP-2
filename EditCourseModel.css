@@ -1,0 +1,93 @@
+.cover {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.formcontainer {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.formheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formheader h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.close-btn {
+    cursor: pointer;
+    font-size: 1.5em;
+    color: #888;
+}
+
+.close-btn:hover {
+    color: #000;
+}
+
+.form-section {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px; /* Set a default height for the textarea */
+}
+
+.btncontainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#cancel {
+    background-color: #dc3545;
+}
+
+#cancel:hover {
+    background-color: #c82333;
+}
