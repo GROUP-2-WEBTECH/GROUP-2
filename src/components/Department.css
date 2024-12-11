@@ -1,0 +1,56 @@
+.header-department{
+    background-color: #fff;
+    padding: 0.5rem;
+    display: flex; 
+     align-items: center;
+     border: 1px solid blue;
+    border-radius: 10px;
+
+    }
+
+.departmentheader h2{
+    color: black;
+    border-right: 1px solid black;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+.assigndepartbutton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;  
+    margin-top: 20px;  
+}
+
+
+.header-department p{
+    padding-left: 10px;
+}
+
+.departmentmain{
+    background: #fff;
+     padding: 1rem;
+    border-radius: 10px;
+}
+
+.departmentheader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px  solid #4CBEFF;
+    padding: 10px;
+    border-radius: 10px;
+    
+      
+}
+
+.departmentheader p{
+   font-weight: bold;
+   width: 20%;
+}
+
+

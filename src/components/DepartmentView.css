@@ -1,0 +1,70 @@
+.infocontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.6); /* Dark semi-transparent backdrop */
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10000;
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(8px); /* Subtle blur effect */
+}
+
+.infobox {
+    background: #f9fafc; /* Soft white with a hint of blue */
+    height: auto; /* Automatically adjust height to content */
+    width: 90%;
+    max-width: 400px; /* Limit maximum width */
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2); /* Floating effect */
+    text-align: left; /* Align text to the left */
+}
+
+.infoheader {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.close-btn {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    transition: transform 0.2s, color 0.2s;
+}
+
+.close-btn:hover {
+    color: #ff4d4d; /* Highlight close button on hover */
+    transform: scale(1.1); /* Slightly enlarge */
+}
+
+.student-info {
+    margin-top: 10px;
+}
+
+.student-info h2 {
+    color: #2c3e50; /* Darker header text */
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.contentcontainer {
+    background: #eaf1f8; /* Light blue background */
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contentcontainer p {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #333;
+}
+
+.contentcontainer p strong {
+    color: #2c72fa; /* Emphasize strong text */
+}
