@@ -1,0 +1,60 @@
+.mainpagecontainer{
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    background: #09327F;
+     }
+
+.header .logo{
+    margin-top: 19px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}     
+
+.search-bar input {
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+.header .school-info {
+    display: flex;
+    align-items: center;
+}
+
+.header .school-info i{
+    margin-right: 10px;
+    color: #fff;
+}
+
+.header .school-info span{
+    margin-right: 10px;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    height: 100%
+}
+
+
+.main-content  
+ {
+    flex-grow: 1;
+    padding: 20px;
+    height: 100%;
+    background: #09327F;
+}
+
+
+
+
+

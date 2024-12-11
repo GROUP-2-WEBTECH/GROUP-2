@@ -1,0 +1,49 @@
+
+
+/* Main container for the course content */
+.coursecontent {
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+/* Header styles for the course section */
+.header-course {
+  margin-bottom: 20px;
+}
+
+/* Button styles for creating a course */
+.assigncoursebutton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.assigncoursebutton:hover {
+  background-color: #0056b3;
+}
+
+/* Main area for displaying courses */
+.coursemain {
+  margin-top: 20px;
+}
+
+/* Header styles for the course list */
+.courseheader {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+/* Action column styles */
+.action {
+  width: 100px; /* Adjust width as needed */
+}
+
+/* General paragraph styles */
+.coursemain p {
+  margin: 5px 0;
+}

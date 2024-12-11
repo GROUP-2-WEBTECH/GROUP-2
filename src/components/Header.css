@@ -1,0 +1,48 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 60px;
+	padding: 10px 45px;
+}
+
+.header .logo {
+	display: flex;
+	align-items: center;
+	padding: 12px 32px;
+}
+
+.header .logo h2 {
+	padding: 0 10px 0 0;
+	font-size: 50px;
+	color: #fff;
+}
+
+.header .logo p {
+	font-size: 14px;
+	padding: 0 8px;
+	color: #fff;
+}
+
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+
+.navbar a{
+	text-decoration: none;
+	padding: 5px 25px;
+	margin: 5px;
+	 border-radius: 20px;
+}
+
+.navbar .signup{
+background-color: #0f53f7;
+color: #fff;
+}
+.navbar .signin{
+	background-color: #fff;
+	color: #0f53f7;
+	}

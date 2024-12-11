@@ -1,0 +1,39 @@
+.departmentinfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;  
+    border: 1px  solid #4CBEFF;  
+    margin-top: 5px;
+    margin-bottom: 5px;
+    flex: 1;
+}
+
+.departmentinfo .edit{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 7px;
+    background: #409AA8;
+    border: none;
+    color: #ffff;
+    border-radius: 10px;
+}
+.departmentinfo .delete{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 7px;
+    background: #c64f4feb;
+    border: none;
+    color: #ffff;
+    border-radius: 10px;}
+
+.departmentinfo .view{
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-right: 7px;
+        background: #4CBEFF;
+        border: none;
+        color: #ffff;
+        border-radius: 10px;
+    }

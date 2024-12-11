@@ -1,0 +1,75 @@
+.loginmain{
+    display: flex;
+}
+
+.loginform{
+  display: flex;
+flex-direction: column;
+  background-color: 09327F;
+  align-content: center;
+  align-items: center;
+  width: 500px;
+  height: 765px;
+  background-color: #0a318e;
+  }
+
+.loginform h2{
+    margin-top: 10rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.loginform p{
+     color:#fff;
+     margin-bottom: 20px;
+}
+
+.loginform label{
+    display: block;
+    color: #fff;
+    text-align: left;
+    margin-top: 10px;
+    width: fit-content;
+    padding: 5px;
+}
+
+.loginform input{
+    height: 20px;
+    width: 350px;
+    border: none;
+    
+    }
+
+.loginform button{
+    margin-top:20px;
+    margin-bottom: 20px;
+    width: 350px; 
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background: #0F53f7;
+} 
+
+.loginform form a{
+    margin-left: 12px;
+}
+
+.loginContent{
+display: flex;
+flex-direction: column;
+background-color: #fff;
+align-content: center;
+align-items: center;
+height: 765px;
+width: 1100px;
+text-align: center;
+}
+
+.loginContent h1{
+ margin-top: 10rem;
+color: #050505;
+margin-bottom: 20px;
+}
+
+.loginContent img{
+    height: 30rem;
+}

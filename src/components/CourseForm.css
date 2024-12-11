@@ -1,0 +1,81 @@
+
+
+/* Container for the form overlay */
+.cover {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Box for the form */
+.formcontainer {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 400px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+/* Header styles for the form */
+.formheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Close button styles */
+.close-btn {
+    cursor: pointer;
+    font-size: 1.5em;
+    color: #dc3545;
+}
+
+/* Form section styles */
+.form-section {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Label styles */
+label {
+    margin-bottom: 5px;
+}
+
+/* Input and textarea styles */
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+/* Button container styles */
+.btncontainer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Submit button styles */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

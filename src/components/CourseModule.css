@@ -1,0 +1,46 @@
+/* courseModule.css */
+
+/* General styles for the course module */
+.course-info {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Course ID and Name styles */
+.course-info p {
+    margin: 5px 0;
+    font-size: 1.2em;
+}
+
+/* Button styles */
+.course-info button {
+    margin-right: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.course-info .edit {
+    background-color: #007bff;
+    color: white;
+}
+
+.course-info .view {
+    background-color: #28a745;
+    color: white;
+}
+
+.course-info .delete {
+    background-color: #dc3545;
+    color: white;
+}
+
+.course-info button:hover {
+    opacity: 0.8;
+}
